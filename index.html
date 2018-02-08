@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <title>Alpha chem</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
-        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <!--<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>--><script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+        <script language="javascript" type="text/javascript" src="js/jquery.flot.js"></script>
 
     </head>
     <body>
@@ -39,11 +40,11 @@
         </div>
 <!--================================================= MAIN ==========================================-->
         <div id="main">
-           	<img class="button1 open" src="images/button2.png">
-           	<img class="button1 close" src="images/button1.png">
+           	<img class="button1 close" src="images/button2.png">
+           	<img class="button1 open" src="images/button1.png">
             <div id="MainTable">
 <!--................................................ TABLE 1 ........................................-->
-	            <div class="table close">
+	            <div class="table open">
 		            <table>
 						<tr>
 							<th>№</th><th>ед. изм. 1</th><th>ед. изм. 2</th>
@@ -57,8 +58,8 @@
 					</table>
 				</div>
 <!--................................................ TABLE 2 ........................................-->
-				<div class="table open">
-					<div id="cc">
+				<div class="table close">
+					<div id="cc" style="width:300px;height:200px;">
 						<canvas id="graphic" width="500" height="400">
 							Функция не поддерживается браузером.
 						</canvas>

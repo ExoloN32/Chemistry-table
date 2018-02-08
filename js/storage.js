@@ -23,22 +23,21 @@ var Storage = (function(){
 			},
 
 			addRow: function(data){
-				var row = _data.lengs; console.log(_data.lengs);
-				_data[row] = data; //console.log(_data.lengs);
+				_data.push(data); //console.log(_data.lengs);
 			},
 
-			getColLength: function(){
-				return _data.lengs;
+			getColLength: function() //{ console.log(_data.length);
+				return _data.length;
 			},
 
 			getRowLength: function(){
-				return _data[0].lengs;
+				return _data[0].length;
 			}
 		};
 	};
 
 	return {
-		getinstace: function() {
+		getInstace: function() {
 			if( !instance ) {
 				instance = init();
 			}
@@ -48,6 +47,7 @@ var Storage = (function(){
 	
 })();
 
+Storage = Storage.getInstace();
 //var storage = new Storage(); 
 
 //var storage = [];

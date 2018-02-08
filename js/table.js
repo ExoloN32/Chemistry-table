@@ -36,10 +36,11 @@
 })(); 
 
 (function(){
+    var storage = Storage;
 	var tableRef = document.querySelector("table");
-	var t_row, t_col; 
+	var t_row, t_col; console.log(storage.getData(0,0));
 	for(var row=0; row<storage.getColLength(); ++row){
-		t_row = document.createElement("tr"); //console.log(storage[row][0]+'  '+storage[0].length);
+		t_row = document.createElement("tr"); // console.log(storage.getData(row, 0)+'  ');
 		for(var col=0; col<storage.getRowLength(); ++col){
 			t_col = document.createElement("td");
 			t_col.textContent = storage.getData(row, col);//console.log(storage[row][col]);
