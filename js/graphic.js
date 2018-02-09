@@ -31,7 +31,7 @@ $(function (){
     
     var options = {
         series: { shadowSize: 0 }, // drawing is faster without shadows
-        yaxis: { show: false }, //{ min: 0, max: 100 },
+        yaxis: { min: 0, max: 100 },
         xaxis: { show: false }
     };
     
