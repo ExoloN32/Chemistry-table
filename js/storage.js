@@ -1,7 +1,7 @@
 var Storage = (function(){
 	var instance;
 
-	function init() {
+	function init(){
 		var _data = [];
 
 		return {
@@ -26,7 +26,7 @@ var Storage = (function(){
 				_data.push(data); //console.log(_data.lengs);
 			},
 
-			getColLength: function() //{ console.log(_data.length);
+			getColLength: function(){// console.log(_data.length);
 				return _data.length;
 			},
 

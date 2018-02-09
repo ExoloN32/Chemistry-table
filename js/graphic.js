@@ -40,7 +40,7 @@ $(function (){
     var updateInterval = 1000;
     
     function update() {
-        plot.setData([ getRandomData() ]);
+        plot.setData([ getData() ]);
         // since the axes don't change, we don't need to call plot.setupGrid()
         plot.draw();
         

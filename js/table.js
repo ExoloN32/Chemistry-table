@@ -33,12 +33,12 @@
 		dt = [i+1, a, b];
 		storage.addRow(dt);
 	}
-})(); 
+}); 
 
 (function(){
     var storage = Storage;
 	var tableRef = document.querySelector("table");
-	var t_row, t_col; console.log(storage.getData(0,0));
+	var t_row, t_col;// console.log(storage.getData(0,0));
 	for(var row=0; row<storage.getColLength(); ++row){
 		t_row = document.createElement("tr"); // console.log(storage.getData(row, 0)+'  ');
 		for(var col=0; col<storage.getRowLength(); ++col){
@@ -48,4 +48,4 @@
 		}
 		tableRef.appendChild(t_row);
 	}
-})();
+});
