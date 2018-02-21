@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Segment7';
+    src:url('fonts/Segment7.ttf.woff') format('woff'),
+        url('fonts/Segment7.ttf.svg#Segment7') format('svg'),
+        url('fonts/Segment7.ttf.eot'),
+        url('fonts/Segment7.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+html{
+	background: #14243d;
+	background: radial-gradient(ellipse at center, #14243d 0%,#030611 100%);
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+*/
+body{
+    background-image: url("../images/backgroundnegative1.jpg");
+    background-attachment: fixed;
+    font-family: 'Segment7';
+    padding: 0;
+    margin: 0;
+}
+
+div{         
+    
+    font-size: 20px;
+}
+
+#header{ 
+    background-color: #002200;/*#181111;*/
+    height: 115px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #dddddd;
+    box-shadow: -3px 5px 15px #000;
+}
+
+#doing {
+    display: block;
+    float: left;
+    background-color: #00000000;
+    height: 110px;
+    width: 19.88%;/*146px;*/
+    
+    
+    color: #ff3333;
+    font-size: 24px;
+    text-shadow: 0 0 10px #ff3333;
+    text-align: center;
+}
+
+#complete {
+    width: auto;
+    padding: 15px;
+    height: 60px;
+    margin: 15px 6px 0 7px;
+    background-color: #808877;
+    border-radius: 10px;
+}
+
+#sidebar{
+    width: 200px;
+    background-color: #00000000;
+    border: 0;
+    position: fixed;
+    right: 15px;
+    top: 130px;
+}
+
+#sensor{
+    background-color: #080000d0;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+    float: right;
+    width: 200px;
+    height: 70px;
+    font-family: 'Segment7';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: #ff3333;
+    text-shadow: 0 0 10px #ff3333; 
+    text-align: right;
+    box-shadow: 3px 5px 15px #000;
+}
+
+#main{
+    background-color: #080000a0;
+    height: auto;/*498px;*/
+    margin: 10px;
+    padding: 20px;
+    margin-right: 256px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    box-shadow: 3px 5px 15px #000;
+}
+
+.button1.close {
+    display: none;
+}
+
+.button1.open {
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: fixed;
+    display: block;
+}
+
+.table.close {
+	display: none;
+	padding-left: 50px;
+}
+
+.table.open {
+	display: block;
+}
+
+#MainTable {
+	margin-left: 50px;
+}
+
+table {
+	text-align: center;
+	width: 100%;
+	color: #cccccc;
+	border: 1px solid #aaa;  /* граница всей таблицы */
+	border-collapse: collapse;
+    text-shadow: 1px 1px 0px #888;
+}
+
+th {
+	background-color: #666;
+	border: 1px solid #aaa;
+}
+
+td {
+    border: 1px solid #aaa;  /* границы между столбцами */
+}
+
+tr {
+    border: 1px solid #aaa;  /* границы между строками */
+}
+
+#graphic {
+    border: 1px solid #ccc;
+    background-color: #777;
+}
+            
+#footer{ 
+    background-color: #002200;/*#181111;*/
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    bottom: -50px;
+    left: 0;
+    margin-top: 5px;
+    box-shadow: 3px 5px 15px #000;
+}
+
+#prog {
+    padding: 5px;
+}
