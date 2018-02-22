@@ -1,4 +1,5 @@
-//console.log('Storage');
+//*******************************************************************************
+//   Data stream. Singleton. 
 
 var Storage = (function(){
 	var instance;
@@ -25,10 +26,10 @@ var Storage = (function(){
 			},
 
 			addRow: function(data){
-				_data.push(data); //console.log(_data.lengs);
+				_data.push(data); 
 			},
 
-			getColLength: function(){ //console.log(_data.length);
+			getColLength: function(){ 
 				return _data.length;
 			},
 
@@ -51,6 +52,4 @@ var Storage = (function(){
 })();
 
 Storage = Storage.getInstace();
-//var storage = new Storage(); 
 
-//var storage = [];

@@ -154,8 +154,14 @@ tr {
     border: 1px solid #aaa;  /* границы между строками */
 }
 
+#graphicoff {
+	padding: 15px;
+    border: 1px solid #444;
+    background-color: #777;
+}
+
 #graphic {
-    border: 1px solid #ccc;
+    border: 0;
     background-color: #777;
 }
             
