@@ -163,6 +163,7 @@ tr {
 #graphic {
     border: 0;
     background-color: #777;
+	width: auto;
 }
             
 #footer{ 

@@ -11,6 +11,8 @@ $(function (){
     }
     /////////////////////////////////////////////////////////////////////////////
     var options = {
+		lines: { show: true },
+		points: { show: true },
         series: { shadowSize: 2 }, // drawing is faster without shadows
         yaxis: { min: 0, max: 100 },
         xaxis: { show: true },
